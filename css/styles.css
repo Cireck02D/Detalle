@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #212121; /* Fondo oscuro */
+    color: white; /* Letras blancas */
+    font-size: 24px; /* Tamaño de fuente más grande */
+}
+
+#message-container {
+    text-align: center;
+}
+
+#loading-bar {
+    width: 0;
+    height: 30px; /* Barra de carga más grande */
+    background-color: #ffffff;
+    margin-top: 20px; /* Más espacio arriba */
+}
+
+button {
+    margin-top: 30px; /* Más espacio arriba */
+    padding: 15px 30px; /* Botón más grande */
+    font-size: 24px; /* Texto del botón más grande */
+    cursor: pointer;
+    background-color: #ffffff; /* Color del botón */
+    color: rgb(0, 0, 0); /* Texto del botón en negro */
+    border: none;
+    border-radius: 10px; /* Bordes más redondeados */
+}
+
+#custom-image {
+    width: 200px; /* Imagen más grande */
+    height: auto;
+    margin: 20px 0; /* Más espacio alrededor de la imagen */
+}
+
+/* Estilos adicionales para el mensaje final */
+#final-message h1 {
+    font-size: 36px; /* Título más grande */
+    margin-bottom: 20px; /* Más espacio debajo del título */
+}
+
+#final-message p {
+    font-size: 24px; /* Texto más grande */
+    margin: 10px 0; /* Espaciado entre párrafos */
+}
+audio {
+    display: none; /* Oculta el reproductor de audio */
+}

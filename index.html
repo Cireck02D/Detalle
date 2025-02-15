@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviando Abrazo Virtual</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Reproductor de audio (oculto) -->
+    <audio id="background-music" loop>
+        <source src="audio/3.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <!-- Botón para reproducir música -->
+    
+
+    <div id="message-container">
+        <div id="initial-message">
+            <p>Hey Bere nun/</p>
+            <img src="imagen/2.png" alt="Imagen" id="custom-image">
+            <p>Tienes un mensaje</p>
+            <button id="view-message-btn">Ver</button>
+        </div>
+        <div id="loading-container" style="display: none;">
+            <p>Enviando abrazo virtual</p>
+            <div id="loading-bar"></div>
+        </div>
+        <div id="final-message" style="display: none;">
+            <p>¡Recibiste un Abrazo!</p>
+            <p>Aunque hoy no pueda acompañarte, siempre pensaré en algo especial para ti. ¡Feliz 14 de febrero Bere! tqm :3 <3 </p>
+            <img src="imagen/1.png" alt="Imagen" id="custom-image">
+            <p></p>
+            <button id="play-music-btn">Reproducir música</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
